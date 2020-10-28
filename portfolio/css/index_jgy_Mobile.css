@@ -143,7 +143,6 @@ body{
 }
 
 /* ie */
-
 .ie10 .swiper-button-next,
 .ie11 .swiper-button-next{
     width: 75px;
