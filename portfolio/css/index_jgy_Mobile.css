@@ -126,10 +126,11 @@ body{
 .modalmenu{
     width: 400px;
     left: -36px;
+    padding: 20px;
 }
 .modalmenu::after{
-    left: 11%;
-    top: 30px;
+    left: 14%;
+    top: 17px;
 }
 .modalmenu::before{
     display: none;
