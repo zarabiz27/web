@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0">
+    <title>COURT OF KOREA_main</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../lib/slick-1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="../lib/slick-1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="../lib/swiper-5.4.5/package/css/swiper.css">
+    <script src="../lib/IE-Checker/ie-checker-min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/Project_C_main.css" />
+    <link rel="stylesheet" media="all and (max-width:640px)" href="../css/Project_C_main_Mobile.css" />
+</head>
+<body>
+    <header>
+        <div class="gnb">
+            <div class="flag">
+                <div class="icon"></div>
+                <div class="text">국가상징 알아보기</div>
+            </div>
+            <div class="btns">
+                <div class="bt">대국민서비스</div>
+                <div class="bt">대법원</div>
+                <div class="bt">각급법원</div>
+                <div class="bt">사법부 소개</div>
+            </div>
+            <div class="info">
+                <span>Home</span>
+                <span>어린이</span>
+                <span>ENG</span>
+            </div>
+        </div>
+        <div class="nav">
+            <div class="inner">
+                <a href="#" class="logo"></a>
+                <div class="search">
+                    <input type="text" placeholder="검색어를 입력해주세요">
+                    <button></button>
+                </div>
+                <div class="menu">
+                    <div class="msearch">
+                        <div class="box">
+                            <input type="text" placeholder="검색어를 입력해주세요">
+                            <button></button>
+                        </div>
+                        <button class="bt">
+                            <div class="mclose">
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </button>
+                    </div>
+                    <h4>전체메뉴</h4>
+                    <div class="open">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="allmenu">
+            <div class="mtop">
+                <span>전체메뉴</span>
+            </div>
+            <div class="box">
+                <ul>
+                    <li>
+                        <div class="title" >소식</div>
+                        <ul class="depth">
+                            <li>새소식</li>
+                            <li>포토뉴스</li>
+                            <li>전국법원소식</li>
+                            <li>사법교류</li>
+                            <li>법원동정</li>
+                            <li>법원공보</li>
+                            <li>뉴스레터</li>
+                            <li>보도자료/언론보도 해명</li>
+                            <li>이메일클럽</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="title">판결</div>
+                        <ul class="depth">
+                            <li>전국법원 주요판결</li>
+                            <li>판례속보</li>
+                            <li>언론보도판결</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="title">공고</div>
+                        <ul class="depth">
+                            <li>계약입찰공고</li>
+                            <li>입법예고</li>
+                            <li>행정예고</li>
+                            <li>공시송달</li>
+                            <li>가사비용</li>
+                            <li class="depth2">회생·파산
+                                <span>· 공고 게시판</span>
+                                <span>· 월별 공고 목록</span>
+                            </li>
+                            <li>무죄판결공시</li>
+                            <li>증권관련집단소송</li>
+                            <li>공시최고·제권판결</li>
+                            <li>국고귀속예정 공탁사건</li>
+                            <li>법원보관금조회 안내</li>
+                            <li class="depth2">회생회사 M&A안내
+                                <span>· M&A 문의안내</span>
+                                <span>· 업종별 회사검색</span>
+                                <span>· 업종별 회사검색</span>
+                            </li>
+                            <li class="depth2">회생·파산 자산매각안내
+                                <span>· M&A 문의안내</span>
+                                <span>· 업종별 회사검색</span>
+                            </li>
+                            <li class="depth2">대법원 공직자윤리위원회
+                                <span>· M&A 문의안내</span>
+                                <span>· 업종별 회사검색</span>
+                                <span>· 업종별 회사검색</span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="title">정보</div>
+                        <ul class="depth">
+                            <li class="depth2">사건검색
+                                <span>· M&A 문의안내</span>
+                                <span>· 업종별 회사검색</span>
+                                <span>· 업종별 회사검색</span>
+                            </li>
+                            <li>공탁사건검색</li>
+                            <li class="depth2">판결서사본 제공신청
+                                <span>· M&A 문의안내</span>
+                                <span>· 업종별 회사검색</span>
+                                <span>· 업종별 회사검색</span>
+                                <span>· 업종별 회사검색</span>
+                            </li>
+                            <li class="depth2">판결서 인터넷열람
+                                <span>· M&A 문의안내</span>
+                                <span>· 업종별 회사검색</span>
+                                <span>· 업종별 회사검색</span>
+                                <span>· 업종별 회사검색</span>
+                                <span>· M&A 문의안내</span>
+                                <span>· 업종별 회사검색</span>
+                                <span>· 업종별 회사검색</span>
+                            </li>
+                            <li class="depth2">판결서 방문열람
+                                <span>· M&A 문의안내</span>
+                                <span>· 업종별 회사검색</span>
+                                <span>· 업종별 회사검색</span>
+                                <span>· 업종별 회사검색</span>
+                            </li>
+                            <li class="depth2">사법통계
+                                <span>· M&A 문의안내</span>
+                                <span>· 업종별 회사검색</span>
+                            </li>
+                            <li class="depth2">최근법령정보
+                                <span>· M&A 문의안내</span>
+                                <span>· 업종별 회사검색</span>
+                                <span>· 업종별 회사검색</span>
+                            </li>
+                            <li class="depth2">개인정보파일
+                                <span>· M&A 문의안내</span>
+                                <span>· 업종별 회사검색</span>
+                            </li>
+                            <li class="depth2">예산집행 실명제 현황
+                                <span>· M&A 문의안내</span>
+                            </li>
+                            <li class="depth2">전국법원·등기소정보
+                                <span>· M&A 문의안내</span>
+                                <span>· M&A 문의안내</span>
+                                <span>· M&A 문의안내</span>
+                            </li>
+                            <li class="depth2">관련사이트
+                                <span>· M&A 문의안내</span>
+                                <span>· M&A 문의안내</span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="title">참여</div>
+                        <ul class="depth">
+                            <li class="depth2">소통의 장
+                                <span>· M&A 문의안내</span>
+                                <span>· M&A 문의안내</span>
+                                <span>· M&A 문의안내</span>
+                                <span>· M&A 문의안내</span>
+                                <span>· M&A 문의안내</span>
+                                <span>· M&A 문의안내</span>
+                            </li>
+                            <li>정보공개청구</li>
+                            <li class="depth2">행정심판청구
+                                <span>· M&A 문의안내</span>
+                                <span>· M&A 문의안내</span>
+                                <span>· M&A 문의안내</span>
+                                <span>· M&A 문의안내</span>
+                                <span>· M&A 문의안내</span>
+                                <span>· M&A 문의안내</span>
+                                <span>· M&A 문의안내</span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="title">자료</div>
+                        <ul class="depth">
+                            <li>홍보동영상</li>
+                            <li>정책홍보자료</li>
+                            <li>사법부 간행물</li>
+                            <li>법교육교재</li>
+                            <li>사법발전재단자료</li>
+                            <li class="depth2">정책연구용역자료
+                                <span>· M&A 문의안내</span>
+                                <span>· M&A 문의안내</span>
+                            </li>
+                            <li>사법연감</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <aside>
+        <div class="quick">
+            <h3>자주찾는메뉴</h3>
+            <ul>
+                <li>
+                    <p>
+                        <span><img src="../images/icon/quick01.png" alt="전자민원센터"></span>
+                        <span class="text">전자민원센터</span>
+                    </p>
+                    <p>
+                        <span><img src="../images/icon/quick05.png" alt="사건검색"></span>
+                        <span class="text">사건검색</span>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <span><img src="../images/icon/quick02.png" alt="인터넷등기소"></span>
+                        <span class="text">인터넷등기소</span>
+                    </p>
+                    <p>
+                        <span><img src="../images/icon/quick18.png" alt="양식"></span>
+                        <span class="text">양식</span>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <span><img src="../images/icon/quick06.png" alt="종합법률정보"></span>
+                        <span class="text">종합법률정보</span>
+                    </p>
+                    <p>
+                        <span><img src="../images/icon/quick03.png" alt="전자소송"></span>
+                        <span class="text">전자소송</span>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <span><img src="../images/icon/quick04.png" alt="시험정보"></span>
+                        <span class="text">시험정보</span>
+                    </p>
+                    <p>
+                        <span><img src="../images/icon/quick07.png" alt="법관임용"></span>
+                        <span class="text">법관임용</span>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <span><img src="../images/icon/quick09.png" alt="전자가족관계등록"></span>
+                        <span class="text">전자가족관계등록</span>
+                    </p>
+                    <p>
+                        <span><img src="../images/icon/quick08.png" alt="법원경매정보"></span>
+                        <span class="text">법원경매정보</span>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <span><img src="../images/icon/quick16.png" alt="나홀로소송"></span>
+                        <span class="text">나홀로소송</span>
+                    </p>
+                    <p>
+                        <span><img src="../images/icon/quick10.png" alt="전자공탁"></span>
+                        <span class="text">전자공탁</span>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <span><img src="../images/icon/quick11.png" alt="사법정책연구원"></span>
+                        <span class="text">사법정책연구원</span>
+                    </p>
+                    <p>
+                        <span><img src="../images/icon/quick13.png" alt="외국인을 위한 사법지원"></span>
+                        <span class="text">외국인을 위한 사법지원</span>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <span><img src="../images/icon/quick15.png" alt="법원도서관"></span>
+                        <span class="text">법원도서관</span>
+                    </p>
+                    <p>
+                        <span><img src="../images/icon/quick12.png" alt="가인법정변론 경연대회"></span>
+                        <span class="text">가인법정변론 경연대회</span>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <span><img src="../images/icon/quick17.png" alt="법원사람들"></span>
+                        <span class="text">법원사람들</span>
+                    </p>
+                    <p>
+                        <span><img src="../images/icon/quick14.png" alt="양형위원회"></span>
+                        <span class="text">양형위원회</span>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <span><img src="../images/icon/quick19.png" alt="재판연구원"></span>
+                        <span class="text">재판연구원</span>
+                    </p>
+                    <p>
+                        <span><img src="../images/icon/quick20.png" alt="재외국민 가족관계 등록사무소"></span>
+                        <span class="text">재외국민 가족관계 등록사무소</span>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <span><img src="../images/icon/quick21.png" alt="판결서 인터넷 열람"></span>
+                        <span class="text">판결서 인터넷 열람</span>
+                    </p>
+                    <p>
+                        <span><img src="../images/icon/quick22.png" alt="전자후견 등기시스템"></span>
+                        <span class="text">전자후견 등기시스템</span>
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <div class="btn">
+            <div class="op"></div>
+        </div>
+    </aside>
+    <div class="main">
+        <h2>포토뉴스</h2>
+            <div class="box">
+                <div class="slide swiper-container one">
+                    <div class="slider swiper-wrapper">
+                        <div class="con swiper-slide">
+                            <div class="box">
+                                <h3>사법행정자문회의 제8차 회의(정기회의) 개최</h3>
+                                <span>대법원은 2020년 9월 24일 오전 10시, 화상회의 방식으로 사법행정자문회의 제8차 회의(정기회의)를 개최하였습니다.</span>
+                                <span>의장(대법원장)은 대법원 409호 회의실에, 위원 9명은 화상으로 참석하여 회의를 진행하였습니다.</span>
+                                <span class="view">자세히보기 <i class="fas fa-arrow-right"></i></span>
+                            </div>
+                            <div class="img"></div>
+                        </div>
+                        <div class="con swiper-slide">
+                            <div class="box">
+                                <h3>산재 유족 특별채용 사건 공개변론</h3>
+                                <span>대법원 전원합의체(재판장 김명수 대법원장)는 2020. 6. 17. 14:00 대법정에서 산재 유족 특별채용 사건에 관한 공개변론을 열고 실시간 중계방송을 하였습니다.</span>
+                                <span>공개변론에서는 ‘산업재해 사망자 유족 특별채용’을 규정한 이 사건 단체협약 규정이 민법 제103조가 정하는 ‘선량한 풍속 기타 사회질서’에 위배되어 무효인지에 관한 ...</span>
+                                <span class="view">자세히보기 <i class="fas fa-arrow-right"></i></span>
+                            </div>
+                            <div class="img"></div>
+                        </div>
+                        <div class="con swiper-slide">
+                            <div class="box">
+                                <h3>전교조 법외노조통보처분취소 사건에 관한 공개변론</h3>
+                                <span>대법원 전원합의체(재판장 김명수 대법원장)는 2020. 5. 20. 14:00 대법원 대법정에서 전교조 법외노조통보처분취소 사건에 관한 공개변론을 열고 실시간 중계방송을 하였습니다.</span>
+                                <span>공개변론에서는 ‘이 사건 통보의 근거 규정인 ｢교원노조법 시행령 제9조 제1항 중 노동조합법 시행령 제9조 제2항 부분｣이 법률의 수권 없이 규정하였거나 새로운 법률사항에 해당하는 것을 규정하여 ...</span>
+                                <span class="view">자세히보기 <i class="fas fa-arrow-right"></i></span>
+                            </div>
+                            <div class="img"></div>
+                        </div>
+                        <div class="con swiper-slide">
+                            <div class="box">
+                                <h3>사기 사건 공개변론</h3>
+                                <span>대법원 1부(재판장 권순일 대법관)는 2020. 5. 28. 14:00 그림 판매 사기 사건에 관한 공개변론을 열고 실시간 중계방송을 하였습니다.</span>
+                                <span>공개변론에서는 미술작품 제작에 2명 이상의 사람이 관여한 경우, 이를 작품 구매자들에게 사전에 알려주어야 하는지 여부에 관하여 치열한 논쟁이 오갔습니다.</span>
+                                <span class="view">자세히보기 <i class="fas fa-arrow-right"></i></span>
+                            </div>
+                            <div class="img"></div>
+                        </div>
+                        <div class="con swiper-slide">
+                            <div class="box">
+                                <h3>사랑의 헌혈 운동</h3>
+                                <span>2020년 3월 17일, 대법원 청사 내에서 적십자사 헌혈차량을 이용하여 약 100여명에 가까운 인원이 참여하는 '사랑의 헌혈 운동' 봉사활동이 진행되었습니다.</span>
+                                <span>코로나19의 여파로 헌혈이 급격하게 줄어 혈액수급에 비상이 걸렸다는 소식에 대법원 사랑나눔자원봉사단이 헌혈 운동에 동참하게 된 것입니다.</span>
+                                <span class="view">자세히보기 <i class="fas fa-arrow-right"></i></span>
+                            </div>
+                            <div class="img"></div>
+                        </div>
+                        <div class="con swiper-slide">
+                            <div class="box">
+                                <h3>전국법원장회의 개최</h3>
+                                <span>2020년 3월 6일, 전국법원장회의가 화상회의로 진행되었습니다.</span>
+                                <span>김명수 대법원장은 코로나 바이러스로 어려움을 맞이하여 최선을 다하고 있는 법원장과 법원 가족에게 감사와 격려를 전하면서, 특히 대구, 경북지역의 법원 가족에게 각별한 위로와 응원의 말씀을 남겼습니다.</span>
+                                <span>더불어 현재와 같은 비상상황에서도 법원 본연의 임무 즉 국민의 신체와 재산을 보호하는 데 소홀이 하여서는 안된다고 ...</span>
+                                <span class="view">자세히보기 <i class="fas fa-arrow-right"></i></span>
+                            </div>
+                            <div class="img"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination pageone"></div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+    </div>
+    <section class="sec1">
+        <div class="inner">
+            <div class="news">
+                <div class="title">
+                    <span data-id="con1" class="on">새소식</span>
+                    <span data-id="con2">판례속보</span>
+                    <span data-id="con3">보도자료/언론보도 해명</span>
+                </div>
+                <div class="text">
+                    <ul id="con1" class="on">
+                        <li>『공인중개사의 매수신청대리 실무교육기관지정승인신청』 접수 안내
+                            <span>2020-10-16</span>
+                        </li>
+                        <li>인천지방법원 공무직 근로자(시설관리원,환경관리원) 채용시험 공고
+                            <span>2020-10-14</span>
+                        </li>
+                        <li>대한민국 법원 홈페이지 일시중단 안내 (10/18 00:00~09:00)
+                            <span>2020-10-14</span>
+                        </li>
+                        <li>대법원 판례심사위원회 조사위원 {전문임기제공무원 조사위원(라급)} 경력경쟁채용시험 시행계획...
+                            <span>2020-10-12</span>
+                        </li>
+                        <li>법원행정처 사법행정담당직위(일반임기제공무원,연봉등급 3호·5호) 경력경쟁채용시험 시행계획...
+                            <span>2020-10-08</span>
+                        </li>
+                        <li>법원 홈페이지 서비스 일시중단 안내
+                            <span>2020-10-07</span>
+                        </li>
+                        <li>양형기준안에 관한 제15차 공청회 개최 안내
+                            <span>2020-10-05</span>
+                        </li>
+                    </ul>
+                    <ul id="con2">
+                        <li>2020. 10. 15. 판례공보 요약본
+                            <span>2020-10-16</span>
+                        </li>
+                        <li>2020. 10. 10. 각급법원(제1,2심) 판결공보 요약본
+                            <span>2020-10-13</span>
+                        </li>
+                        <li>2020. 10. 1. 판례공보 요약본
+                            <span>2020-10-05</span>
+                        </li>
+                        <li>피고인들이 문화재수리기술자 자격증과 문화재수리기능자 자격증을 대여하고, 대여받아 사...
+                            <span>2020-09-28</span>
+                        </li>
+                        <li>뇌물공여자가 택배를 이용하여 뇌물수수자의 명의로 지인에게 선물발송한 행위에 관하여...
+                            <span>2020-09-28</span>
+                        </li>
+                        <li>사립학교에 대한 봉사활동확인서 허위제출행위에 관하여 업무방해죄로 기소된 사건[대법원...
+                            <span>2020-09-28</span>
+                        </li>
+                        <li>고등학교 교사가 학생인 피해자들을 강제추행한 사건[대법원 2020. 9. 24. 선 ...
+                            <span>2020-09-28</span>
+                        </li>
+                    </ul>
+                    <ul id="con3">
+                        <li>대법원 선고 2016도10654 특정경제범죄가중처벌등에관한법률위반(횡령)...
+                            <span>2020-10-16</span>
+                        </li>
+                        <li>대법원 선고 2020도9144 직권남용권리행사방해등 재상고 사건에 관한...
+                            <span>2020-10-16</span>
+                        </li>
+                        <li>대법원 선고 2020도9660 상해 등 사건에 관한 보도자료
+                            <span>2020-10-16</span>
+                        </li>
+                        <li>대법원 선고 2019도2862 정보통신망법 위반 사건에 관한 보도자료
+                            <span>2020-10-16</span>
+                        </li>
+                        <li>2020 사법연감 발간
+                            <span>2020-10-05</span>
+                        </li>
+                        <li>정무직 윤리감사관 공개모집
+                            <span>2020-10-05</span>
+                        </li>
+                        <li>중앙선거관리위원회 위원 내정
+                            <span>2020-10-05</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="btn">더 보기 +</div>
+            </div>
+            <div class="poster">
+                <div class="img">
+                    <div><img src="../images/img/people.jpg" alt="법원사람들"></div>
+                    <div><img src="../images/img/letter.jpg" alt="뉴스레터"></div>
+                </div>
+                <div class="map">
+                    <div class="box">
+                        <h2>각급법원 홈페이지 바로가기</h2>
+                        <div class="icon"></div>
+                        <div class="site">
+                            <select name="sitemap" class="a">
+                                <option>시/도 선택</option>
+                                <option>서울</option>
+                                <option>인천/경기도</option>
+                                <option>강원도</option>
+                                <option>충청북도</option>
+                                <option>대전/세종/충청남도</option>
+                                <option>대구/경상북도</option>
+                                <option>부산/울산/경상남도</option>
+                                <option>광주/전라남도</option>
+                                <option>전라북도</option>
+                                <option>제주도</option>
+                            </select>
+                            <select name="sitemap" class="b">
+                                <option>각급법원</option>
+                            </select>
+                        </div>
+                        <div class="btn">바로가기</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sec2">
+        <div class="bg">
+            <h2>소통의 장</h2>
+            <div class="content">
+                <div class="box">
+                    <div class="img">자주묻는 질문(FAQ)</div>
+                    <div class="info">본 코너는 사법정책 및 행정에 관한 민원, 건의, 제안, 제언 등을 듣고자 하는 창구입니다.
+                        ※ 2013. 1. 1.부터 "법원행정처장과의 대화"는 "법원에 바란다"와 통합 운영합니다.</div>
+                </div>
+                <div class="box">
+                    <div class="img">부조리신고센터</div>
+                    <div class="info">본 코너는 법관 및 법원공무원의 직무관련 부조리를 실명으로 신고하는 창구입니다</div>
+                </div>
+                <div class="box">
+                    <div class="img">불합리한 법령신고센터</div>
+                    <div class="info">본 코너는 국민 여러분이 재판과정이나 법원을 이용하면서 느끼신 불합리한 법령에 대한 개선의견을 제시 하는 창구입니다.</div>
+                </div>
+                <div class="box">
+                    <div class="img">예산낭비 신고센터</div>
+                    <div class="info">본 코너는 법원에 예산집행과 예산낭비 사례 등 예산 및 회계업무에 대한 의견을 듣고자 하는 창구입니다.</div>
+                </div>
+                <div class="box">
+                    <div class="img">홈페이지 개선의견</div>
+                    <div class="info">본 코너는 홈페이지에 대한 기능, 구성, 콘텐츠 내용 등 홈페이지 자체에 관한 의견을 듣고자 하는 코너입니다.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sec3">
+        <div class="inner">
+            <div class="map">
+                <h2>각급법원 홈페이지 바로가기</h2>
+                <div class="icon"></div>
+                <div class="site">
+                    <select name="sitemap" class="a">
+                        <option>시/도 선택</option>
+                        <option>서울</option>
+                        <option>인천/경기도</option>
+                        <option>강원도</option>
+                        <option>충청북도</option>
+                        <option>대전/세종/충청남도</option>
+                        <option>대구/경상북도</option>
+                        <option>부산/울산/경상남도</option>
+                        <option>광주/전라남도</option>
+                        <option>전라북도</option>
+                        <option>제주도</option>
+                    </select>
+                    <select name="sitemap" class="b">
+                        <option>각급법원</option>
+                    </select>
+                </div>
+                <div class="btn">바로가기</div>
+            </div>
+            <div class="guide">
+                <h2>정책홍보 자료</h2>
+                <h4>밀어서 확인하세요! <i class="fas fa-arrow-right"></i></h4>
+                <div class="top">
+                    <div class="topimg"></div>
+                </div>
+                <div class="slide swiper-container two">
+                    <div class="slider swiper-wrapper">
+                        <div class="img swiper-slide"></div>
+                        <div class="img swiper-slide"></div>
+                        <div class="img swiper-slide"></div>
+                        <div class="img swiper-slide"></div>
+                        <div class="img swiper-slide"></div>
+                        <div class="img swiper-slide"></div>
+                    </div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination pagetwo"></div>
+                <div class="mslide">
+                    <div class="slider">
+                        <div class="img"></div>
+                        <div class="img"></div>
+                        <div class="img"></div>
+                        <div class="img"></div>
+                        <div class="img"></div>
+                        <div class="img"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="form">
+                <div class="a">
+                    <div class="icon"></div>
+                    <span>나의 사건검색</span>
+                </div>
+                <div class="b">
+                    <div class="icon"></div>
+                    <span>양식모음</span>
+                </div>
+                <div class="c">
+                    <div class="icon"></div>
+                    <span>단체견학안내</span>
+                </div>
+                <div class="d">
+                    <div class="icon"></div>
+                    <span>법원전시관</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sec4">
+        <div class="bg">
+            <div class="title">
+                <h2>대법원 SNS</h2>
+                <h4>다양한 소식을 소셜 네트워크 서비스로 만나보세요.</h4>
+            </div>
+            <div class="sns">
+                <div class="face">페이스북</div>
+                <div class="twit">트위터</div>
+                <div class="yout">유튜브</div>
+                <div class="inst">인스타그램</div>
+                <div class="naver">네이버블로그</div>
+                <div class="daum">다음블로그</div>
+                <div class="kakao">카카오</div>
+            </div>
+        </div>
+    </section>
+    <section class="sec5">
+        <div class="inner">
+            <div class="left">
+                <span>법원동정</span>
+                <ul>
+                    <li>'2020 대한민국 법원의 날' 기념 대법원장 표창 수여식
+                        <span>2020-10-16</span>
+                    </li>
+                    <li>'2020 대한민국 법원의 날' 기념 대법원장 표창 수여식
+                        <span>2020-10-16</span>
+                    </li>
+                    <li>'2020 대한민국 법원의 날' 기념 대법원장 표창 수여식
+                        <span>2020-10-16</span>
+                    </li>
+                    <li>'2020 대한민국 법원의 날' 기념 대법원장 표창 수여식
+                        <span>2020-10-16</span>
+                    </li>
+                    <li>'2020 대한민국 법원의 날' 기념 대법원장 표창 수여식
+                        <span>2020-10-16</span>
+                    </li>
+                    <li>'2020 대한민국 법원의 날' 기념 대법원장 표창 수여식
+                        <span>2020-10-16</span>
+                    </li>
+                    <li>'2020 대한민국 법원의 날' 기념 대법원장 표창 수여식
+                        <span>2020-10-16</span>
+                    </li>
+                </ul>
+                <div class="btn">더 보기 +</div>
+            </div>
+            <div class="right">
+                <span>전국법원 주요판결</span>
+                <ul>
+                    <li>[행정]체류자격변경불허가처분취소(전주지방법원 2020구합487)
+                        <span>2020-10-16</span>
+                    </li>
+                    <li>[행정]체류자격변경불허가처분취소(전주지방법원 2020구합487)
+                        <span>2020-10-16</span>
+                    </li>
+                    <li>[행정]체류자격변경불허가처분취소(전주지방법원 2020구합487)
+                        <span>2020-10-16</span>
+                    </li>
+                    <li>[행정]체류자격변경불허가처분취소(전주지방법원 2020구합487)
+                        <span>2020-10-16</span>
+                    </li>
+                    <li>[행정]체류자격변경불허가처분취소(전주지방법원 2020구합487)
+                        <span>2020-10-16</span>
+                    </li>
+                    <li>[행정]체류자격변경불허가처분취소(전주지방법원 2020구합487)
+                        <span>2020-10-16</span>
+                    </li>
+                    <li>[행정]체류자격변경불허가처분취소(전주지방법원 2020구합487)
+                        <span>2020-10-16</span>
+                    </li>
+                </ul>
+                <div class="btn">더 보기 +</div>
+            </div>
+        </div>
+    </section>
+    <section class="sec6">
+        <div class="banner slick-box">
+            <div class="slick-wrapper">
+                <div class="slider">
+                    <img src="../images/logos/logo1.png" alt="국민건강보험">
+                </div>
+                <div class="slider">
+                    <img src="../images/logos/logo2.png" alt="국회도서관">
+                </div>
+                <div class="slider">
+                    <img src="../images/logos/logo3.png" alt="기업지원플러스">
+                </div>
+                <div class="slider">
+                    <img src="../images/logos/logo4.png" alt="언론중재위원회">
+                </div>
+                <div class="slider">
+                    <img src="../images/logos/logo5.png" alt="농촌진흥청">
+                </div>
+                <div class="slider">
+                    <img src="../images/logos/logo7.png" alt="통계청">
+                </div>
+                <div class="slider">
+                    <img src="../images/logos/logo8.png" alt="대한법무사협회">
+                </div>
+                <div class="slider">
+                    <img src="../images/logos/logo9.png" alt="대한변호사협회">
+                </div>
+                <div class="slider">
+                    <img src="../images/logos/logo10.png" alt="법무부">
+                </div>
+                <div class="slider">
+                    <img src="../images/logos/logo11.png" alt="법제처">
+                </div>
+                <div class="slider">
+                    <img src="../images/logos/logo12.png" alt="대한법률구조공단">
+                </div>
+                <div class="slider">
+                    <img src="../images/logos/logo13.png" alt="특허청">
+                </div>
+                <div class="slider">
+                    <img src="../images/logos/logo14.png" alt="한국형사정책연구원">
+                </div>
+                <div class="slider">
+                    <img src="../images/logos/logo15.png" alt="헌법재판소">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="inner">
+            <div class="box1">
+                <div class="ftlogo"></div>
+                <div class="text">
+                    <div class="a">
+                        <span>개인정보처리방침</span>
+                        <span>영상정보처리기기 운영·관리방침</span>
+                        <span>저작권보호정책</span>
+                    </div>
+                    <span>(06590) 서울특별시 서초구 서초대로 219(서초동)</span>
+                    <span>Copyright 2016 Supreme Court of Korea. All Rights Reserved.</span>
+                </div>
+            </div>
+            <div class="box2">
+                <div class="info">
+                    <span>대표전화 02)3480-1100</span>
+                    <span>홈페이지 이용 문의 02)3480-1715(평일9시~18시)</span>
+                    <span>인터넷등기 사용자지원센터 1544-0770</span>
+                </div>
+                <div class="ftcerti"></div>
+            </div>
+        </div>
+    </footer>
+    <a href="#" class="scroll">&utrif;</a>
+
+    <script src="../js/jquery-2.2.4.min.js"></script>
+<!-- Initialize Swiper -->
+    <script src="../lib/swiper-5.4.5/package/js/swiper.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container.one', {
+            pagination: {
+                el: '.pageone',
+                type: 'fraction',
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            // autoplay: {
+            // delay: 2000,
+            // },
+        });
+        var swiper = new Swiper('.swiper-container.two', {
+            pagination: {
+                el: '.pagetwo',
+                clickable: true,
+            },
+        });
+    </script>
+
+<!-- slick slide -->
+    <script src="../lib/slick-1.8.1/slick/slick.js"></script>
+
+    <script type="text/javascript" src="../js/court_main.js"></script>
+</body>
+</html>

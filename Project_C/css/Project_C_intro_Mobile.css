@@ -1,0 +1,59 @@
+@charset "utf-8";
+body{
+    min-width: 320px;
+    overflow-x: hidden;
+}
+.inner{
+    width: calc(100% - 40px);
+    height: auto;
+    min-width: 320px;
+    margin: 0 auto;
+}
+
+.main .logobg .logo{
+    width: 175px;
+    height: 75px;
+    background-size: cover
+}
+.main .visual .icon{
+    width: 300px;
+    height: auto;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.main .visual .icon .box1,
+.main .visual .icon .box2,
+.main .visual .icon .box3,
+.main .visual .icon .box4{
+    width: 130px;
+    height: auto;
+    padding: 45px 5px 0 5px;
+    font-size: 1.2rem;
+    margin: 10px;
+}
+.main .visual .icon .box1 span,
+.main .visual .icon .box2 span,
+.main .visual .icon .box3 span,
+.main .visual .icon .box4 span{
+    display: none;
+}
+.main .footer{
+    height: auto;
+}
+.main .footer .inner{
+    width: 90%;
+    height: 100%;
+}
+.main .footer .inner .info{
+    display: none;
+}
+
+/* ie check */
+/* .ie11
+.ie10 */
+
+.ie11 .main .visual .icon,
+.ie10 .main .visual .icon{
+    margin: 0;
+}
+

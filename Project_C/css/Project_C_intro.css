@@ -1,0 +1,154 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+*{ box-sizing: border-box; 
+    padding: 0; 
+    margin: 0; 
+}
+.clearfix::after{content: "";
+    clear: both;
+    display: table;}
+body{padding: 0;
+    margin: 0;
+    min-width: 1200px;}
+:root { font-family: 'Nanum Gothic', sans-serif;
+    font-size: 14px;
+    color: #373737;
+    --swiper-theme-color: #fff;}
+ul, li{list-style: none;}
+a{text-decoration: none;}
+
+.main{
+    width: 100%;
+    height: 100vh;
+}
+.main .logobg{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main .logobg .logo{
+    width: 210px;
+    height: 87px;
+    background: url(../images/mainlogo.png) 0 0 no-repeat;
+}
+.main .visual{
+    width: 100%;
+    height: 80%;
+    background: url(../images/pattern/Sprinkle.svg) 0 0 no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main .visual .icon{
+    width: 900px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.main .visual .icon .box1,
+.main .visual .icon .box2,
+.main .visual .icon .box3,
+.main .visual .icon .box4{
+    width: 200px;
+    height: 250px;
+    line-height: 95px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.2);
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #fff;
+    padding: 100px 0 0 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.main .visual .icon a{
+    transition: all 0.3s ease;
+}
+.main .visual .icon .box1 span,
+.main .visual .icon .box2 span,
+.main .visual .icon .box3 span,
+.main .visual .icon .box4 span{
+    width: 85px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 10px;
+    display: block;
+    text-align: center;
+    font-size: 1rem;
+    color: #fff;
+    border: 1px solid #d8d8d8;
+    margin: 0 auto;
+}
+.main .visual .icon .box1{
+    background: url(../images/icon/link_portal.png) 50% 0 no-repeat;
+    background-size: cover;
+}
+.main .visual .icon .box2{
+    background: url(../images/icon/link_supreme.png) 50% 0 no-repeat;
+    background-size: cover;
+}
+.main .visual .icon .box3{
+    background: url(../images/icon/link_each.png) 50% 0 no-repeat;
+    background-size: cover;
+}
+.main .visual .icon .box4{
+    background: url(../images/icon/link_judi.png) 50% 0 no-repeat;
+    background-size: cover;
+}
+.main .visual .icon .box1:hover,
+.main .visual .icon .box2:hover,
+.main .visual .icon .box3:hover,
+.main .visual .icon .box4:hover{
+    transform: translateY(-20px);
+}
+.main .footer{
+    width: 100%;
+    height: 10%;
+    background: #252930;    
+    padding: 15px 0;
+}
+.main .footer .inner{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main .footer .inner .text{
+    width: auto;
+    height: auto;
+}
+.main .footer .inner .text span{
+    display: block;
+    font-size: 0.9rem;
+    color: #888;
+    margin: 5px 0;
+}
+.main .footer .inner .info{
+    width: auto;
+    height: auto;
+}
+.main .footer .inner .info span{
+    display: block;
+    font-size: 0.9rem;
+    color: #888;
+    margin: 5px 0;
+}
+
+/* ie check */
+/* .ie11
+.ie10 */
+
+.ie10 .main .visual .icon .box1, 
+.ie10 .main .visual .icon .box2, 
+.ie10 .main .visual .icon .box3, 
+.ie10 .main .visual .icon .box4{
+    display: block;
+}
