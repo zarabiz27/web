@@ -120,6 +120,9 @@ body{
 .container3 .box .skill .right .d .skill .photo, .container3 .box .skill .right .d .skill .hc, .container3 .box .skill .right .d .skill .jq, .container3 .box .skill .right .d .skill .ill{
     margin: 0 20px 0 0;
 }
+.container3 .box .skill .right .d .skill .jq span {
+    margin: 5px 40px 5px 20px;
+}
 .container3 .box .skill .right .d .skill .photo .line::after{
     width: 100px;
 }

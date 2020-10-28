@@ -36,6 +36,7 @@ body{ min-width: 640px; }
 .modalmenu{
     height: 85vh;
     top: -240px;
+    padding: 20px;
 }
 .modalmenu::after{
     left: 7%;
