@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/* 태블릿 레이아웃 */
+body{ min-width: 640px; }
+
+.vertical-slider > .slick-dots{
+    top: 0;
+}
+.swiper-container.swiper_h{
+    width: 100%;
+    height: 600px;
+}
+.swiper-container-horizontal > .swiper-pagination-progressbar, .swiper-container-vertical > .swiper-pagination-progressbar.swiper-pagination-progressbar-opposite{
+    left: 58%;
+}
+.scroll_main{
+    display: none;
+}
+.tariffCards{
+    height: 500px;
+    width: 900px;
+}
+.tariffCards > div{
+    width: 300px;
+    height: 500px;
+}
+.textbox{
+    width: auto;
+}
+.container3 .box{
+    width: 90%;
+    height: auto;
+}
+.container3 .title{
+    margin: 80px 0 0 0;
+}
+.modalmenu{
+    height: 85vh;
+    top: -240px;
+}
+.modalmenu::after{
+    left: 7%;
+    top: 30px;
+}
+.modalmenu::before{
+    display: none;
+}
+.modalmenu .input{
+    margin: 0;
+}
+
+/* ie */
+
+.ie10 .swiper_h.swiper-container,
+.ie11 .swiper_h.swiper-container{
+    width: 100%;
+}
+.ie10 .textbox{
+    width: 500px;
+}
+.ie11 .textbox{
+    width: 100%;
+}
+.ie10  .tariffCards{
+    width: 30%;
+}

@@ -1,0 +1,166 @@
+@charset "utf-8";
+/* 모바일 레이아웃 */
+body{
+    min-width: 320px;
+    overflow: auto;
+}
+
+.vertical-slider > .slick-dots{
+    top: 0;
+}
+.vertical-slider > .slick-dots li{
+    width: 80px;
+}
+.square{
+    font-size: 55px;
+}
+.swiper-container.swiper_h{
+    width: 100%;
+    height: 600px;
+    margin: 60px 0 0 0;
+}
+.swiper-container-horizontal > .swiper-pagination-progressbar, .swiper-container-vertical > .swiper-pagination-progressbar.swiper-pagination-progressbar-opposite{
+    display: none;
+}
+.swiper-button-next,
+.swiper-button-prev{
+  display: block;
+}
+.container2 .slide1,
+.container2 .slide2,
+.container2 .slide3{
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px;
+}
+.tariffCards{
+    height: 400px;
+    width: 90%;
+    position: relative;
+    margin: 0 auto;
+}
+.tariffCards > div{
+    height: 300px;
+}
+.tariffCards .a_main1 {
+    width: 100%;
+    top: 0;
+    margin: 0 0 20px 0;
+}
+.tariffCards .a_main2 {
+    display: none;
+}
+.tariffCards .a_sub {
+    display: none;
+}
+.textbox{
+    width: 100%;
+    height: 300px;
+}
+.textbox .top{
+    margin: 0 0 0 0;
+}
+.textbox .top h2{
+    font-size: 1.8rem;
+}
+.textbox .info{
+    display: none;
+}
+.textbox .type{
+    margin: 20px 0;
+}
+.textbox .type h3{
+    margin: 0 0 10px 0;
+}
+.tariffCards .b_main1{
+    width: 100%;
+    top: 0;
+    margin: 0 0 20px 0;
+}
+.tariffCards .b_main2{
+    display: none;
+}
+.tariffCards .c_intro,
+.tariffCards .c_main2{
+    display: none;
+}
+.tariffCards .c_main1{
+    width: 100%;
+    left: 0;
+    top: 0;
+    margin: 0 0 20px 0;
+}
+.tariffCards .c_main1:hover{
+    transform: translateX(0);
+}
+.container3 .title{
+    margin: 80px 0 0 0;
+}
+.container3 .box{
+    padding: 0 20px;
+}
+.container3 .box .skill span{
+    display: block;
+}
+.container3 .box .skill .left .a{
+    display: none;
+}
+.container3 .box .skill .left .a, .container3 .box .skill .left .b{
+    margin: 20px 0 0 0;
+}
+.container3 .box .skill .right span{
+    margin: 5px 20px;
+}
+.container3 .box .skill .right .c{
+    margin: 0;
+}
+.container3 .box .skill .right .d .skill{
+    margin: 0 0 20px 0;
+}
+.container3 .box .skill .right .d .skill .photo, .container3 .box .skill .right .d .skill .hc, .container3 .box .skill .right .d .skill .jq, .container3 .box .skill .right .d .skill .ill{
+    margin: 0 20px 0 0;
+}
+.container3 .box .skill .right .d .skill .photo .line::after{
+    width: 100px;
+}
+.modalmenu{
+    width: 400px;
+    left: -36px;
+}
+.modalmenu::after{
+    left: 11%;
+    top: 30px;
+}
+.modalmenu::before{
+    display: none;
+}
+.modalmenu .input{
+    margin: 0;
+}
+
+/* ie */
+
+.ie10 .swiper-button-next,
+.ie11 .swiper-button-next{
+    width: 75px;
+    height: 75px;
+    background: url(../images/navigate_next-white-48dp.svg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.ie10 .swiper-button-prev,
+.ie11 .swiper-button-prev{
+    width: 75px;
+    height: 75px;
+    background: url(../images/navigate_before-white-48dp.svg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.ie10 .tariffCards{
+    width: 100%;
+    height: 300px;
+}
+.ie10 .textbox{
+    width: 100%;
+}
+.ie11 .modalmenu{
+    left: -40px;
+}
