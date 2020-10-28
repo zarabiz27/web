@@ -623,7 +623,7 @@ a{text-decoration: none;}
   position: absolute;
   content: "";
   width: 120px;
-  height: 4px;
+  height: 3px;
   background: #fff;
   top: 0;
   left: 0;
@@ -632,7 +632,7 @@ a{text-decoration: none;}
   position: absolute;
   content: "";
   width: 90px;
-  height: 4px;
+  height: 3px;
   background: #fff;
   top: 0;
   left: 0;
@@ -641,7 +641,7 @@ a{text-decoration: none;}
   position: absolute;
   content: "";
   width: 110px;
-  height: 4px;
+  height: 3px;
   background: #fff;
   top: 0;
   left: 0;
