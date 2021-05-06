@@ -185,7 +185,7 @@ a{text-decoration: none;}
 .line {
     display:flex;
     position:relative;
-    z-index:3;
+    z-index:5;
 }
 .line .sub{
   font-family: 'Recipekorea';
