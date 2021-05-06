@@ -189,12 +189,12 @@ a{text-decoration: none;}
 }
 .line .sub{
   font-family: 'Recipekorea';
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   color: #fff;
   letter-spacing: 4px;
   position: absolute;
   bottom: -100px;
-  right: -85px;
+  right: -100px;
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
   padding: 10px 0 5px 0;
@@ -291,10 +291,10 @@ a{text-decoration: none;}
 }
 .mouse {
     display:flex;
-    width:20px;
-    height:40px;
-    border:1px solid #fff;
-    border-radius:20px;
+    width:30px;
+    height:50px;
+    border:2px solid #fff;
+    border-radius:30px;
 }
 .molette {
     margin:12px auto auto auto;
